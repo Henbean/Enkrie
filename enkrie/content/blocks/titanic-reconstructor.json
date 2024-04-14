@@ -1,0 +1,68 @@
+{
+    "type": "Reconstructor",
+    "name": "Titanic Reconstructor",
+    "description": "A titanic facility for a titanic unit",
+    "size": 16,
+    "constructTime": 8400,
+    "consumes": {
+        "power": 34,
+        "items": {
+            "items": [
+                {
+                    "item": "silicon",
+                    "amount": 1600
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1000
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1200
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 1000
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 2200
+        },
+        {
+            "item": "titanium",
+            "amount": 1800
+        },
+        {
+            "item": "graphite",
+            "amount": 1400
+        },
+        {
+            "item": "silicon",
+            "amount": 1800
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 600
+        },
+        {
+            "item": "plastanium",
+            "amount": 800
+        }
+    ],
+    "upgrades": [
+        [
+            "toxopid",
+            "enkrie"
+        ]
+    ],
+    "category": "units",
+    "research": "tetrative-reconstructor"
+}
