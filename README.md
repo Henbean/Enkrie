@@ -7,4 +7,4 @@ If you think this is kinda epic, star it on github!! Or not, i don't mind.
 Based in json.
 
 Developers:
-just me
+little ol' me
