@@ -1,0 +1,18 @@
+{
+    "localizedName": "Huge Lithium Wall",
+    "description": "A heavily armored wall, you can't reach the top.",
+    "type": "Wall",
+    "health": 20800,
+    "chanceDeflect": 6,
+    "flashHit": true,
+    "flashColor": "8c9fcd",
+    "armor": 44,
+    "size": 3,
+    "envEnabled": -1,
+    "requirements": [
+        "lithium/68",
+        "phase-fabric/20"
+    ],
+    "category": "defense",
+    "research": "enkrie-lithium-wall"
+}

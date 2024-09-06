@@ -1,0 +1,116 @@
+{
+    "name": "Theria Fuser",
+    "description": "Uses large amounts of power and blast compound to synthesise theria.",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+            "type": "DrawGlowRegion",
+            "color": "FFFFFFFF",
+            "suffix": "-glow"
+        }
+      ]
+    },
+    "size": 5,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 480,
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [
+              {
+                "type": "WaveEffect",
+                "lifetime": 70,
+                "sizeFrom": 0,
+                "sizeTo": 30,
+                "interp": "pow10Out",
+                "strokeFrom": 2,
+                "strokeTo": 0,
+                "colorFrom": "FFFFFFFF",
+                "colorTo": "FFFFFFFF"
+            },
+            {
+              "type": "RadialEffect",
+              "effect": {
+                  "type": "ParticleEffect",
+                  "line": true,
+                  "particles": 8,
+                  "lifetime": 30,
+                  "interp": "circleOut",
+                  "length": 35,
+                  "cone": 40,
+                  "strokeTo": 0,
+                  "lightColor": "FF724FFF",
+                  "strokeFrom": 2,
+                  "sizeFrom": 20,
+                  "sizeTo": 12,
+                  "colorFrom": "FFFFFF60",
+                  "colorTo": "FFFFFF00"
+              }
+            },
+            {
+                "type": "RadialEffect",
+                "effect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 10,
+                    "lifetime": 30,
+                    "interp": "circleOut",
+                    "length": 55,
+                    "cone": 25,
+                    "strokeTo": 0,
+                    "lightColor": "FF724FFF",
+                    "strokeFrom": 2,
+                    "sizeFrom": 6,
+                    "sizeTo": 0,
+                    "colorFrom": "FFFFFFFF",
+                    "colorTo": "FFFFFF00"
+                }
+            },
+            {
+                "type": "RadialEffect",
+                "effect": {
+                    "type": "ParticleEffect",
+                    "particles": 5,
+                    "lifetime": 35,
+                    "interp": "circleOut",
+                    "length": 30,
+                    "cone": 20,
+                    "lightColor": "FF724FFF",
+                    "sizeFrom": 10,
+                    "sizeTo": 0,
+                    "colorFrom": "FFFFFF70",
+                    "colorTo": "FFFFFF00"
+                }
+            }
+        ]
+    },
+    "updateEffect": "none",
+    "consumes": {
+      "power": 32,
+      "items": {
+        "items": [
+          "phase-fabric/3",
+          "surge-alloy/1",
+          "blast-compound/10"
+        ]
+      }
+    },
+    "requirements": [
+      "surge-alloy/500",
+      "plastanium/800",
+      "lithium/400",
+      "silicon/1000",
+      "thorium/300",
+      "lead/1200"
+    ],
+    "category": "crafting",
+    "research": "plastanium-compressor",
+    "outputItem": "enkrie-theria/2"
+  }

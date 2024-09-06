@@ -1,0 +1,16 @@
+{
+    "localizedName": "Lithium",
+    "Description": "A very hard material used in armor and weaponry.",
+    "hardness": 16,
+    "radioactivity": 0,
+    "explosiveness": 0.2,
+    "charge": 0.4,
+    "cost": 5,
+    "color": "2c2f32FF",
+    "research": {
+        "parent": "plastanium",
+        "requirements": [
+        "plastanium/1200"
+        ]
+    }
+}

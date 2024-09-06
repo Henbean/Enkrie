@@ -1,0 +1,66 @@
+{
+    "name": "Korpal",
+    "controller": "SuicideAI",
+    "type": "legs",
+    "legCount": 4,
+    "legContinuousMove": false,
+    "legLength": 13,
+    "legMoveSpace": 2.2,
+    "armor": 3,
+    "speed": 1.5,
+    "hitSize": 16,
+    "flying": false,
+    "health": 210,
+    "range": 20,
+    "immunities": [
+      "slow"
+    ],
+    "weapons": [
+      {
+        "name": "blam",
+        "reload": 120,
+        "shootCone": 90,
+        "ejectEffect": "none",
+        "shootSound": "explosion",
+        "bullet": {
+          "type": "BombBulletType",
+          "lightningColor": "98A6ECFF",
+          "lightning": 8,
+          "lightningDamage": 34,
+          "lightningLength": 18,
+          "lightningCone": 240,
+          "lightningLengthRand": 5,
+          "hitEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 13,
+            "offset": 35,
+            "lifetime": 16,
+            "length": 36,
+            "cone": -90,
+            "lenFrom": 10,
+            "lenTo": 0,
+            "colorFrom": "FFFFFF",
+            "colorTo": "e3903cff"
+          },
+          "lifetime": 10,
+          "speed": 1,
+          "splashDamageRadius": 64,
+          "instantDisappear": true,
+          "splashDamage": 320,
+          "killShooter": true,
+          "hittable": false,
+          "collidesAir": true
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 20,
+        "regen": 0.5,
+        "max": 180,
+        "cooldown": 180
+      }
+    ]
+  }

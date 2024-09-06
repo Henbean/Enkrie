@@ -1,0 +1,14 @@
+{
+    "name": "Core Chrysalis",
+    "type": "CoreBlock",
+    "size": 6,
+    "health": 148000,
+    "itemCapacity": 28000,
+    "thrusterLength": 18,
+    "unitCapModifier": 28,
+    "armor": 20,
+    "unitType": "enkrie-delta",
+    "requirements": [
+        "lithium/12000"
+    ]
+}

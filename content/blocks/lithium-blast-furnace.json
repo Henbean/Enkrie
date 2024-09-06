@@ -1,0 +1,83 @@
+{
+    "name": "Lithium Blast Furnace",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+            "type": "DrawGlowRegion",
+            "color": "d94a2bFF",
+            "suffix": "-glow"
+        }
+      ]
+    },
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 120,
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "RadialEffect",
+                "effect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 6,
+                    "lifetime": 30,
+                    "interp": "circleOut",
+                    "length": 35,
+                    "cone": 25,
+                    "strokeTo": 0,
+                    "lightColor": "FF724FFF",
+                    "strokeFrom": 2.5,
+                    "sizeFrom": 10,
+                    "sizeTo": 0,
+                    "colorFrom": "FF724FFF",
+                    "colorTo": "d94a2b00"
+                }
+            },
+            {
+                "type": "RadialEffect",
+                "effect": {
+                    "type": "ParticleEffect",
+                    "particles": 5,
+                    "lifetime": 35,
+                    "interp": "circleOut",
+                    "length": 30,
+                    "cone": 20,
+                    "lightColor": "FF724FFF",
+                    "sizeFrom": 10,
+                    "sizeTo": 0,
+                    "colorFrom": "FF724F70",
+                    "colorTo": "d94a2b00"
+                }
+            }
+        ]
+    },
+    "updateEffect": "none",
+    "consumes": {
+      "power": 6,
+      "items": {
+        "items": [
+          "titanium/3",
+          "plastanium/2",
+          "lead/3"
+        ]
+      }
+    },
+    "requirements": [
+      "surge-alloy/90",
+      "silicon/140",
+      "thorium/60",
+      "lead/120"
+    ],
+    "category": "crafting",
+    "research": "surge-smelter",
+    "outputItem": "enkrie-lithium/3"
+}

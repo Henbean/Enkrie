@@ -1,0 +1,87 @@
+{
+    "type": "UnitFactory",
+    "researchCostMultiplier": 0.3,
+    "size": 6,
+    "consumes": {
+      "power": 60,
+      "liquid": {
+        "liquid": "cryofluid",
+        "amount": 1.6
+      }
+    },
+    "plans": [
+      {
+        "unit": "enkrie-ex1-void",
+        "requirements": [
+          {
+            "item": "enkrie-theria",
+            "amount": 6000
+          },
+          {
+            "item": "lithium",
+            "amount": 1200
+          },
+          {
+            "item": "surge-alloy",
+            "amount": 3000
+          }
+        ],
+        "time": 67200
+      },
+      {
+        "unit": "enkrie-ex2-strife",
+        "requirements": [
+          {
+            "item": "theria",
+            "amount": 5000
+          },
+          {
+            "item": "lithium",
+            "amount": 900
+          },
+          {
+            "item": "titanium",
+            "amount": 3200
+          }
+        ],
+        "time": 62400
+      },
+      {
+        "unit": "enkrie-ex3-krisopoeia",
+        "requirements": [
+          {
+            "item": "theria",
+            "amount": 5400
+          },
+          {
+            "item": "lithium",
+            "amount": 1100
+          },
+          {
+            "item": "metaglass",
+            "amount": 2900
+          }
+        ],
+        "time": 64800
+      }
+    ],
+    "requirements": [
+      {
+        "item": "silicon",
+        "amount": 800
+      },
+      {
+        "item": "graphite",
+        "amount": 460
+      },
+      {
+        "item": "theria",
+        "amount": 320
+      },
+      {
+        "item": "lithium",
+        "amount": 1200
+      }
+    ],
+    "category": "units"
+  }

@@ -1,0 +1,16 @@
+{
+    "localizedName": "Theria",
+    "Description": "This material seems to phase in and out of being.",
+    "hardness": 12,
+    "radioactivity": 1,
+    "explosiveness": 10,
+    "charge": 1,
+    "cost": 5,
+    "color": "FFFFFFFF",
+    "research": {
+        "parent": "phase-fabric",
+        "requirements": [
+            "phase-fabric/3000"
+        ]
+    }
+}

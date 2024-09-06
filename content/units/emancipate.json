@@ -1,0 +1,182 @@
+{
+    "name": "Emancipate",
+    "outlineColor": "6d6f7e",
+    "type": "legs",
+    "speed": 1.6,
+    "hitSize": 10,
+    "health": 240,
+    "armor": 2,
+    "range": 180,
+    "targetAir": true,
+    "rotateSpeed": 5,
+    "legMoveSpace": 1.8,
+    "legCount": 6,
+    "legContinuousMove": false,
+    "legLength": 16,
+    "hovering": true,
+    "immunities": [
+      "disarmed",
+      "slow"
+    ],
+    "weapons": [
+      {
+        "name": "emanate-turret",
+        "reload": 36,
+        "mirror": true,
+        "alternate": true,
+        "x": 0.5,
+        "y": -1,
+        "parts": [
+          {
+            "type": "RegionPart",
+            "suffix": "-blade",
+            "mirror": true,
+            "layerOffset": 0.002,
+            "heatColor": "ffa665FF",
+            "moveY": -1.5,
+            "moveX": 2.5,
+            "outline": false,
+            "progress": {
+              "type": "warmup",
+              "op": "blend",
+              "other": "reload",
+              "amount": 0.75
+              },
+              "children": [
+                {
+                  "type": "RegionPart",
+                  "suffix": "-blade-glow",
+                  "blending": "additive",
+                  "color": "A9D8FF20",
+                  "colorTo": "A9D8FFFF",
+                  "progress": {
+                    "type": "warmup",
+                    "op": "blend",
+                    "other": "heat",
+                    "amount": 0.2
+                  },
+                  "outline": false,
+                  "mirror": true
+                }
+              ]
+            }
+          ],
+        "shake": 2,
+        "top": true,
+        "layerOffset": 0.001,
+        "rotate": false,
+        "shootSound": "blaster",
+        "shootY": 3,
+        "shootCone": 12,
+        "shoot": {
+          "type": "shootPattern",
+          "shots": 2,
+          "shotDelay": 7
+        },
+        "bullet": {
+          "type": "EmpBulletType",
+          "hitPowerEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 6,
+            "lifetime": 22,
+            "length": 70,
+            "cone": -360,
+            "lenFrom": 6,
+            "lenTo": 6,
+            "strokeFrom": 3,
+            "strokeTo": 0,
+            "colorFrom": "FFFFFFF",
+            "colorTo": "A9D8FFFF"
+          },
+          "shootEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 5,
+            "lifetime": 60,
+            "offset": 50,
+            "length": 80,
+            "cone": -10,
+            "strokeFrom": 3,
+            "strokeTo": 0,
+            "lenFrom": 7,
+            "lenTo": 0,
+            "colorFrom": "66B1FFFF",
+            "colorTo": "A9D8FFFF"
+          },
+          "width": 13,
+          "height": 18,
+          "sprite": "enkrie-bullet-star",
+          "frontColor": "FFFFFF",
+          "backColor": "66B1FFFF",
+          "lifetime": 30,
+          "speed": 16,
+          "damage": 50,
+          "recoil": 7,
+          "homingRange": 280,
+          "homingPower": 0.1,
+          "trailRotation": true,
+          "shrinkY": 0,
+          "shrinkX": 0,
+          "radius": 40,
+          "timeIncrease": 0.9,
+          "powerDamageScl": 0.2,
+          "powerSclDecrease": 2,
+          "unitDamageScl": 1,
+          "trailInterval": 5,
+          "hitColor": "66B1FFFF",
+          "status": "blasted",
+          "statusDuration": 100,
+          "despawnEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 10,
+            "lifetime": 60,
+            "offset": 50,
+            "length": 55,
+            "cone": -360,
+            "strokeFrom": 8,
+            "strokeTo": 0,
+            "lenFrom": 6,
+            "lenTo": 0,
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
+          },
+          "hitEffect": {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 14,
+            "lifetime": 60,
+            "offset": 50,
+            "length": 75,
+            "cone": -60,
+            "strokeFrom": 8,
+            "strokeTo": 0,
+            "lenFrom": 8,
+            "lenTo": 0,
+            "colorFrom": "A9D8FFFF",
+            "colorTo": "66B1FFFF"
+          },
+          "pierceCap": 5,
+          "pierce": true,
+          "pierceBuilding": true,
+          "trailEffect": {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "length": 0,
+            "lifetime": 30,
+            "region": "enkrie-pierce-fx",
+            "lightColor": "A9D8FFFF",
+            "colorFrom": "66B1FFFF",
+            "colorTo": "66B1FF10",
+            "sizeFrom": 32,
+            "sizeTo": 1
+          },
+          "trailColor": "66B1FFFF",
+          "trailParam": 6,
+          "trailLength": 42,
+          "trailWidth": 3
+        }
+      }
+    ]
+  }
