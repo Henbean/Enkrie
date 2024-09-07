@@ -1,0 +1,12 @@
+{
+    "temperature": -2.73,
+    "flammability": 0,
+    "viscosity": 0.8,
+    "lightColor": "090609FF",
+    "heatCapacity": 2.5,
+    "explosiveness": 0,
+    "effect": "freezing",
+    "color": "090609FF",
+    "research": "cryofluid"
+}
+  

@@ -1,0 +1,35 @@
+{
+    "name": "Reality Atrophy",
+    "effect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 4,
+      "offset": 10,
+      "lifetime": 32,
+      "length": 50,
+      "cone": 1,
+      "lenFrom": 5,
+      "lenTo": 4,
+      "colorFrom": "090609FF",
+      "colorTo": "09060900"
+    },
+    "affinities": [
+      "blasted",
+      "melting",
+      "corroded",
+      "shocked",
+      "electrified",
+      "wet",
+      "muddy",
+      "sapped",
+      "tarred",
+      "burning",
+      "freezing"
+    ],
+    "transitionDamage": 42,
+    "disarm": true,
+    "healthMultiplier": 0.2,
+    "damageMultiplier": 1,
+    "buildSpeedMultiplier": 0,
+    "speedMultiplier": 0.1
+  }

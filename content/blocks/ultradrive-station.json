@@ -1,0 +1,21 @@
+{
+    "type": "overdriveDome",
+    "health": 850,
+    "size": 4,
+    "range": 160,
+    "speedBoost": 3.5,
+    "hasBoost": false,
+    "requirements": [
+        "lithium/200",
+        "titanium/350",
+        "phase-fabric/400",
+        "theria/20"
+    ],
+    "consumes": {
+        "power": 10,
+        "liquid": {
+          "liquid": "void",
+          "amount": 0.14
+        }
+      }
+}
