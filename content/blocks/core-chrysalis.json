@@ -8,6 +8,7 @@
     "unitCapModifier": 28,
     "armor": 20,
     "unitType": "enkrie-delta",
+    "category": "effect",
     "requirements": [
         "lithium/12000"
     ]

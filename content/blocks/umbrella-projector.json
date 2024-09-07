@@ -1,0 +1,37 @@
+{
+    "name": "Umbrella Projector",
+    "description": "Protects a large area with a powerful shield, very slowly regenerates without coolant.",
+    "type": "ForceProjector",
+    "health": 1200,
+    "size": 4,
+    "radius": 360,
+    "shieldHealth": 8000,
+    "phaseRadiusBoost": 40,
+    "phaseShieldBoost": 4000,
+    "phaseUseTime": 270,
+    "cooldownNormal": 0.8,
+    "cooldownLiquid": 3.5,
+    "cooldownBrokenBase": 1,
+    "itemCapacity": 10,
+    "liquidCapacity": 40,
+    "solid": true,
+    "hasPower": true,
+    "category": "effect",
+    "requirements": [
+        "lithium/200",
+        "titanium/350",
+        "phase-fabric/400",
+        "theria/20"
+    ],
+    "consumes": {
+        "power": 16,
+        "items": {
+            "items": [
+              "phase-fabric/1"
+            ],
+            "booster": true,
+            "optional": true
+          }
+      },
+      "research": "force-projector"
+}

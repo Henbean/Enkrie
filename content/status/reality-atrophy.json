@@ -1,17 +1,33 @@
 {
     "name": "Reality Atrophy",
     "effect": {
-      "type": "ParticleEffect",
-      "line": true,
-      "particles": 4,
-      "offset": 10,
-      "lifetime": 32,
-      "length": 50,
-      "cone": 1,
-      "lenFrom": 5,
-      "lenTo": 4,
-      "colorFrom": "090609FF",
-      "colorTo": "09060900"
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 5,
+                "offset": 30,
+                "lifetime": 32,
+                "length": 55,
+                "cone": 1,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "color": "090609"
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 5,
+                "offset": 30,
+                "lifetime": 32,
+                "length": -55,
+                "cone": 1,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "color": "090609"
+            }
+        ]
     },
     "affinities": [
       "blasted",

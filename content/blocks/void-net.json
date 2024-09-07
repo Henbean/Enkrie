@@ -1,0 +1,71 @@
+{
+    "name": "Void Net",
+    "description": "Idly catches void from the environment to create a useful product using power and water.",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+            "type": "DrawGlowRegion",
+            "color": "FFFFFFFF",
+            "suffix": "-glow"
+        }
+      ]
+    },
+    "size": 5,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": false,
+    "liquidCapacity": 36,
+    "craftTime": 240,
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [
+              {
+                "type": "WaveEffect",
+                "lifetime": 240,
+                "sizeFrom": 0,
+                "sizeTo": 45,
+                "interp": "pow10Out",
+                "strokeFrom": 2,
+                "strokeTo": 0,
+                "colorFrom": "202025FF",
+                "colorTo": "20202500"
+            },
+            {
+                  "type": "ParticleEffect",
+                  "particles": 1,
+                  "lifetime": 240,
+                  "offset": 0,
+                  "region": "enkrie-specific-1",
+                  "interp": "pow10Out",
+                  "length": 0,
+                  "lightColor": "FFFFFFFF",
+                  "sizeFrom": 20,
+                  "sizeTo": 20,
+                  "colorFrom": "FFFFFF60",
+                  "colorTo": "FFFFFF00"
+            }
+        ]
+    },
+    "updateEffect": "none",
+    "consumes": {
+      "power": 4,
+      "liquids": [
+        "water/0.05"
+    ]
+    },
+    "requirements": [
+      "surge-alloy/100",
+      "lithium/250",
+      "silicon/200",
+      "thorium/50",
+      "phase-fabric/500"
+    ],
+    "category": "crafting",
+    "research": "enkrie-lithium-blast-furnace",
+    "outputLiquid": "void/0.025"
+  }
