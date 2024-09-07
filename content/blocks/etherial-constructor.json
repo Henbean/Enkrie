@@ -1,7 +1,7 @@
 {
     "type": "UnitFactory",
     "researchCostMultiplier": 0.3,
-    "size": 6,
+    "size": 5,
     "consumes": {
       "power": 60,
       "liquid": {
