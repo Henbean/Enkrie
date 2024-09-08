@@ -18,6 +18,42 @@
         "silicon/200"
     ],
     "research": "mend-projector",
+    "drawer": {
+        "type": "drawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawShape",
+                "color": "FFFFFF",
+                "sides": 6,
+                "radius": 4,
+                "layer": 110
+            },
+            {
+                "type": "DrawPulseShape",
+                "color": "FFFFFF",
+                "stroke": 4,
+                "minStroke": 0.2,
+                "radiusScl": 1,
+                "layer": 110
+            },
+            {
+                "type": "DrawCultivator",
+                "plantColor": "FFFFFF",
+                "plantColorLight": "FFFFFF",
+                "bottomColor": "d4a7c0",
+                "strokeMin": 0.5,
+                "spread": 10,
+                "radius": 7
+            },
+            {
+                "type": "DrawGlowRegion",
+                "color": "FFFFFFFF"
+            }
+        ]
+    },
     "consumes": {
         "power": 7,
         "items": {
