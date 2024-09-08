@@ -19,7 +19,7 @@
     "consumes": {
       "power": 101,
       "liquids": [
-        "cryofluid/0.8"
+        "void/0.4"
       ],
       "items":  [
         "theria/10"
@@ -391,7 +391,7 @@
         "knockback": 7400,
         "pierce": true,
         "pierceBuilding": true,
-        "pierceCap": 12,
+        "pierceCap": 8,
         "fragBullets": 10,
         "fragSpread": 100,
         "fragRandomSpread": 100,
@@ -506,8 +506,8 @@
         "hittable": false,
         "speed": 99,
         "lifetime": 22,
-        "damage": 142000,
-        "splashDamage": 16000,
+        "damage": 110000,
+        "splashDamage": 15000,
         "splashDamageRadius": 46,
         "buildingDamageMultiplier": 0.6,
         "height": 36,

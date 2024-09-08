@@ -1,0 +1,26 @@
+{
+    "name": "Surge Substation",
+    "description": "A large power distributor capable of holding a hefty range and capacity.",
+    "type": "PowerNode",
+    "size": 3,
+    "health": 440,
+    "laserRange": 35,
+    "maxNodes": 32,
+    "hasPower": true,
+    "requirements": [
+      {
+        "item": "phase-fabric",
+        "amount": 100
+      },
+      {
+        "item": "silicon",
+        "amount": 150
+      },
+      {
+        "item": "surge-alloy",
+        "amount": 200
+      }
+    ],
+    "research": "surge-tower",
+    "category": "power"
+  }

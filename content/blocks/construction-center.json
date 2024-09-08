@@ -1,0 +1,20 @@
+{
+    "name": "Construction Center",
+    "description": "Massively increases build speed if your building something in it's radius.",
+    "type": "BuildTurret",
+    "outlineColor": "36363c",
+    "health": 600,
+    "size": 3,
+    "range": 430,
+    "buildSpeed": 11,
+    "category": "effect",
+    "requirements": [
+        "lithium/300",
+        "phase-fabric/250",
+        "silicon/200"
+    ],
+    "research": "force-projector",
+    "consumes": {
+        "power": 7
+      }
+}

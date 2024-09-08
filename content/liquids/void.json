@@ -2,12 +2,93 @@
     "name": "Void",
     "temperature": -2.73,
     "flammability": 0,
-    "viscosity": 0.8,
+    "viscosity": 0.2,
     "lightColor": "090609FF",
     "heatCapacity": 2.5,
     "explosiveness": 0,
+    "capPuddles": false,
+    "moveThroughBlocks": true,
     "effect": "freezing",
     "color": "090609FF",
-    "research": "cryofluid"
+    "research": "cryofluid",
+    "particleEffect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": 40,
+                "cone": 7,
+                "lenFrom": 5,
+                "lenTo": 4
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": -40,
+                "cone": 7,
+                "lenFrom": 5,
+                "lenTo": 4
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": 40,
+                "cone": 4,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "colorFrom": "4c4b94FF",
+                "colorTo": "4c4b94FF"
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": -40,
+                "cone": 4,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "colorFrom": "4c4b94FF",
+                "colorTo": "4c4b94FF"
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": 40,
+                "cone": 6,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "colorFrom": "c34b92FF",
+                "colorTo": "c34b92FF"
+            },
+            {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 1,
+                "offset": 30,
+                "lifetime": 32,
+                "length": -40,
+                "cone": 6,
+                "lenFrom": 5,
+                "lenTo": 4,
+                "colorFrom": "c34b92FF",
+                "colorTo": "c34b92FF"
+            }
+        ]
+    }
 }
   
