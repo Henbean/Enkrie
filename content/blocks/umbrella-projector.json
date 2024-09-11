@@ -10,7 +10,7 @@
     "phaseShieldBoost": 4000,
     "phaseUseTime": 270,
     "cooldownNormal": 0.8,
-    "cooldownLiquid": 3.5,
+    "cooldownLiquid": 5.5,
     "cooldownBrokenBase": 1,
     "itemCapacity": 10,
     "liquidCapacity": 40,

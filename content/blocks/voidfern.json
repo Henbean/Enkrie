@@ -19,7 +19,7 @@
     "consumes": {
       "power": 101,
       "liquids": [
-        "void/0.4"
+        "void/1.6"
       ],
       "items":  [
         "theria/10"
