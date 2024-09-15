@@ -1,4 +1,5 @@
 {
+    "name": "Etherial Constructor",
     "type": "UnitFactory",
     "researchCostMultiplier": 0.3,
     "size": 5,

@@ -1,15 +1,19 @@
 {
     "name": "Core Chrysalis",
     "type": "CoreBlock",
-    "size": 6,
-    "health": 148000,
-    "itemCapacity": 28000,
+    "size": 7,
+    "health": 98000,
+    "itemCapacity": 20000,
     "thrusterLength": 18,
     "unitCapModifier": 28,
     "armor": 20,
     "unitType": "enkrie-delta",
     "category": "effect",
     "requirements": [
-        "lithium/12000"
+        "lithium/10000",
+        "lead/8000",
+        "copper/7000",
+        "silicon/10000",
+        "phase-fabric/4000"
     ]
 }

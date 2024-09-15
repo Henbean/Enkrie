@@ -288,7 +288,7 @@
             "moveY": 0,
             "moveRot": 360,
             "layerOffset": 0.5,
-            "progress": "recoil"
+            "progress": "charge"
           },
           {
             "type": "RegionPart",
