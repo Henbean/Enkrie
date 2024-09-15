@@ -1,0 +1,110 @@
+{
+    "name": "Critter Creator",
+    "type": "UnitFactory",
+    "researchCostMultiplier": 0.3,
+    "size": 5,
+    "consumes": {
+      "power": 16,
+      "liquid": {
+        "liquid": "cryofluid",
+        "amount": 0.1
+      }
+    },
+    "plans": [
+      {
+        "unit": "enkrie-epilo",
+        "requirements": [
+        {
+            "item": "titanium",
+            "amount": 60
+          },
+          {
+            "item": "lithium",
+            "amount": 70
+          },
+          {
+            "item": "plastanium",
+            "amount": 20
+          }
+        ],
+        "time": 540
+      },
+      {
+        "unit": "enkrie-emancipate",
+        "requirements": [
+        {
+            "item": "titanium",
+            "amount": 150
+          },
+          {
+            "item": "lithium",
+            "amount": 120
+          },
+          {
+            "item": "plastanium",
+            "amount": 80
+          },
+          {
+            "item": "surge-alloy",
+            "amount": 70
+          }
+        ],
+        "time": 720
+      },
+      {
+        "unit": "enkrie-esther",
+        "requirements": [
+        {
+            "item": "titanium",
+            "amount": 340
+          },
+          {
+            "item": "lithium",
+            "amount": 400
+          },
+          {
+            "item": "plastanium",
+            "amount": 100
+          },
+          {
+            "item": "surge-alloy",
+            "amount": 140
+          }
+        ],
+        "time": 1140
+      },
+      {
+        "unit": "enkrie-kewl",
+        "requirements": [
+          {
+            "item": "pyratite",
+            "amount": 15
+          },
+          {
+            "item": "lithium",
+            "amount": 20
+          }
+        ],
+        "time": 240
+      },
+      {
+        "unit": "enkrie-kewl",
+        "requirements": [
+          {
+            "item": "blast-compound",
+            "amount": 40
+          },
+          {
+            "item": "lithium",
+            "amount": 30
+          },
+          {
+            "item": "plastanium",
+            "amount": 20
+          }
+        ],
+        "time": 240
+      }
+    ],
+    "category": "units"
+}
