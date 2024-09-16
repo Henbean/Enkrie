@@ -1,0 +1,135 @@
+{
+    "name": "Eclectis",
+    "description": "Sticks and stones don't break these bones",
+    "research": {
+        "parent": "toxopid",
+        "requirements": [
+        "lead/10000",
+        "silicon/14000",
+        "graphite/6000",
+        "plastanium/3000",
+        "phase-fabric/1500",
+        "surge-alloy/6000",
+        "lithium/10000"
+        ]
+    },
+    "lightRadius": 200,
+    "type": "legs",
+    "speed": 2,
+    "canDrown": false,
+    "hitSize": 100,
+    "health": 820000,
+    "armor": 192,
+    "drag": 0.1,
+    "accel": 0.08,
+    "stepShake": 4,
+    "oultineColour": "36363C",
+    "shieldColor": "FFFFFF",
+    "range": 540,
+    "maxRange": 540,
+    "groundLayer": 87,
+    "legContinuousMove": true,
+    "targetAir": true,
+    "rotateSpeed": 0.50,
+    "legMaxLength": 1.1,
+    "legMinLength": 0.8,
+    "legExtension": -10,
+    "legCount": 9,
+    "legGroupSize": 3,
+    "legLength": 240,
+    "legBaseOffset": 55,
+    "legPairOffset": 20,
+    "rippleScale": 12.5,
+    "legSplashDamage": 220,
+    "legSplashRange": 40,
+    "allowLegStep": true,
+    "hovering": true,
+    "immunities": [
+        "burning",
+        "wet",
+        "slow",
+        "sapped",
+        "shocked",
+        "freezing",
+        "corroded",
+        "tarred",
+        "muddy",
+        "spore-slowed",
+        "blasted",
+        "disarmed",
+        "electrified",
+        "melting"
+    ],
+    "parts": [
+        {
+
+        }
+    ],
+    "weapons": [
+        {
+            "name": "dotted",
+            "shootCone": 3,
+            "mirror": false,
+            "reload": 25,
+            "y": -20,
+            "xRand": 75,
+            "velocityRnd": 0.2,
+            "shoot": {
+                "type": "ShootPattern",
+                "shotDelay": 4,
+                "shots": 5
+            },
+            "inaccuracy": 0,
+            "rotate": false,
+            "shootY": 0,
+            "shootSound": "blaster",
+            "bullet": {
+                "type": "BasicBulletType",
+                "width": 7,
+                "height": 8,
+                "sprite": "enkrie-bullet-star",
+                "frontColor": "f0d18cFF",
+                "backColor": "e0a957FF",
+                "lifetime": 35,
+                "damage": 180,
+                "speed": 24,
+                "shrinkY": 0,
+                "shrinkX": 0.25,
+                "shootEffect": {
+                    "type": "WaveEffect",
+                    "sizeFrom": 0,
+                    "sizeTo": 20,
+                    "interp": "pow5Out",
+                    "lifetime": 12,
+                    "colorFrom": "f0d18cFF",
+                    "colorTo": "e0a95770"
+                }
+            },
+            "hitEffect": {
+                "type": "multiEffect",
+                "effects": [
+                {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 8,
+                    "lifetime": 24,
+                    "offset": 50,
+                    "length": 105,
+                    "cone": -60,
+                    "lenFrom": 11,
+                    "lenTo": 11,
+                    "colorFrom": "f0d18cFF",
+                    "colorTo": "e0a957FF"
+                }
+                ]
+            },
+            "homingPower": 0.01,
+            "homingRange": 200,
+            "trailColor": "f0d18cFF",
+            "trailParam": 6,
+            "trailLength": 3,
+            "trailWidth": 0.5
+        }
+    ]
+}
+  

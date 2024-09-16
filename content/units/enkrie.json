@@ -242,7 +242,6 @@
       "reload": 60,
       "y": -74,
       "xRand": 170,
-      "yRand": 20,
       "shoot": {
         "type": "shootPattern",
         "shots": 14,

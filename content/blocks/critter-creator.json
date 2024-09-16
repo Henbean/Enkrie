@@ -12,24 +12,6 @@
     },
     "plans": [
       {
-        "unit": "enkrie-epilo",
-        "requirements": [
-        {
-            "item": "titanium",
-            "amount": 60
-          },
-          {
-            "item": "lithium",
-            "amount": 70
-          },
-          {
-            "item": "plastanium",
-            "amount": 20
-          }
-        ],
-        "time": 540
-      },
-      {
         "unit": "enkrie-emancipate",
         "requirements": [
         {
@@ -105,6 +87,24 @@
         ],
         "time": 240
       }
+    ],
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 800
+        },
+        {
+            "item": "silicon",
+            "amount": 450
+          },
+          {
+            "item": "graphite",
+            "amount": 700
+          },
+          {
+            "item": "lithium",
+            "amount": 300
+          }
     ],
     "category": "units"
 }
